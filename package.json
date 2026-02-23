@@ -1,0 +1,29 @@
+{
+  "name": "@everystate/router",
+  "version": "1.0.0",
+  "description": "EveryState Router: SPA router for EventState stores. Routing is just state",
+  "type": "module",
+  "main": "index.js",
+  "keywords": [
+    "everystate",
+    "router",
+    "spa",
+    "state-management",
+    "path-based",
+    "vanilla-js",
+    "framework-agnostic",
+    "routing"
+  ],
+  "author": {
+    "name": "Ajdin Imsirovic",
+    "url": "https://www.linkedin.com/in/ajdin-imsirovic"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImsirovicAjdin/everystate-router"
+  },
+  "dependencies": {
+    "@uistate/router": "^1.0.1"
+  }
+}
