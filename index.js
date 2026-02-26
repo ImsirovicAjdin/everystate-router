@@ -1,8 +1,7 @@
 /**
  * @everystate/router
  *
- * EveryState wrapper for @uistate/router
- * Re-exports all functionality from the underlying @uistate/router package
+ * SPA router for EveryState stores. Routing is just state.
  */
 
-export * from '@uistate/router';
+export { createRouter } from './router.js';

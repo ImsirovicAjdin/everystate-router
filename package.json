@@ -1,9 +1,10 @@
 {
   "name": "@everystate/router",
   "version": "1.0.0",
-  "description": "EveryState Router: SPA router for EventState stores. Routing is just state",
+  "description": "EveryState Router: SPA router for EveryState stores. Routing is just state",
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "keywords": [
     "everystate",
     "router",
@@ -23,7 +24,10 @@
     "type": "git",
     "url": "https://github.com/ImsirovicAjdin/everystate-router"
   },
-  "dependencies": {
-    "@uistate/router": "^1.0.1"
-  }
+  "files": [
+    "index.js",
+    "router.js",
+    "index.d.ts",
+    "README.md"
+  ]
 }
