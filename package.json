@@ -1,6 +1,6 @@
 {
   "name": "@everystate/router",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "EveryState Router: SPA router for EveryState stores. Routing is just state",
   "type": "module",
   "main": "index.js",
@@ -25,9 +25,10 @@
     "url": "https://github.com/ImsirovicAjdin/everystate-router"
   },
   "files": [
-    "index.js",
-    "router.js",
-    "index.d.ts",
-    "README.md"
+    "*.js",
+    "*.d.ts",
+    "*.md",
+    "*.html",
+    "tests/"
   ]
 }
