@@ -154,7 +154,7 @@ assert('URL-encoded param decoded', res7.params.id === 'hello world');
 
 // -- Summary ---------------------------------------------------------
 
-console.log(`\n@everystate/router v1.0.0 self-test`);
+console.log(`\n@everystate/router v1.0.5 self-test`);
 if (failed > 0) {
   console.error(`✗ ${failed} assertion(s) failed, ${passed} passed`);
   process.exit(1);

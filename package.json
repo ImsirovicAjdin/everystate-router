@@ -1,10 +1,13 @@
 {
   "name": "@everystate/router",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "EveryState Router: SPA router for EveryState stores. Routing is just state",
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
+  "bin": {
+    "everystate-router-self-test": "cli.js"
+  },
   "keywords": [
     "everystate",
     "router",
@@ -24,11 +27,31 @@
     "type": "git",
     "url": "https://github.com/ImsirovicAjdin/everystate-router"
   },
+  "homepage": "https://github.com/ImsirovicAjdin/everystate-router",
+  "peerDependencies": {
+    "@everystate/core": ">=1.0.5"
+  },
+  "scripts": {
+    "test": "node self-test.js",
+    "self-test": "node self-test.js",
+    "test:integration": "node tests/router.test.js",
+    "test:i": "node tests/router.test.js"
+  },
+  "devDependencies": {
+    "@everystate/test": "^1.0.0"
+  },
   "files": [
     "*.js",
     "*.d.ts",
     "*.md",
     "*.html",
+    "cli.js",
     "tests/"
-  ]
+  ],
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  }
 }
