@@ -1,6 +1,6 @@
 {
   "name": "@everystate/router",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "EveryState Router: SPA router for EveryState stores. Routing is just state",
   "type": "module",
   "main": "index.js",
