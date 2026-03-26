@@ -199,7 +199,7 @@ export function createRouter(config) {
     // Boot new view
     let unboot = null;
     if (component && typeof component.boot === 'function') {
-      unboot = await component.boot({ store, el: root, signal, params: resolved.params });
+      unboot = await component.boot({ store, el: root, signal, params: resolved.params, view: viewKey });
     }
 
     // Guard: if navigation was superseded during boot, bail out

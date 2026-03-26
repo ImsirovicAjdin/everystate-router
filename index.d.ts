@@ -21,6 +21,7 @@ export interface BootContext {
   el: HTMLElement;
   signal: AbortSignal;
   params: Record<string, string>;
+  view: string;
 }
 
 export interface NavigateOptions {
